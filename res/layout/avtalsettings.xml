@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/avtalSpinner"></Spinner>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Spara avtal" android:id="@+id/avtalSave_btn"></Button>
+    </LinearLayout>
+    <TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Namn:         "></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:maxLines="1" android:id="@+id/avtalNamnTxt"></EditText>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="Tim/mån:   " android:layout_width="wrap_content"></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/avtalTimTxt"></EditText>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="Sjuklön:        " android:layout_width="wrap_content"></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/AvtalSickTxt"></EditText>
+            <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/avtalSickSpinner"></Spinner>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Övertid:       "></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/avtalOverTxt"></EditText>
+            <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/avtalOverSpinner"></Spinner>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="Semesterlön" android:layout_width="wrap_content"></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="EditText" android:id="@+id/avtalSemTxt"></EditText>
+            <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/avtalSemSpinner"></Spinner>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+        <Button android:layout_height="wrap_content" android:id="@+id/avtalAddOB_btn" android:layout_width="wrap_content" android:text="Add OB" android:layout_weight="1"></Button>
+    </LinearLayout>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/avtalObList"></ListView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txt_EditTitleWeekday" android:layout_gravity="center" android:text="XX" android:textSize="22dp"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XXX-XX-XX" android:layout_gravity="center" android:id="@+id/txt_EditTitleDate"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" "></TextView>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editday_list"></ListView>
+    <Button android:layout_height="wrap_content" android:id="@+id/EditNew_btn" android:text="Ny tid" android:layout_width="fill_parent"></Button>
+</LinearLayout>

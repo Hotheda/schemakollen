@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.heda.schemakollen"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:targetSdkVersion="4" android:minSdkVersion="4"/>
+
+    <application android:label="@string/app_name" android:icon="@drawable/mainicon">
+        <activity android:label="@string/app_name" android:configChanges="orientation" android:name="schemakollen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="appwidget" android:label="@string/app_name">
+            <intent-filter>
+            	<action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+        	<meta-data android:name="android.appwidget.provider" android:resource="@xml/appwiget"/>
+        </receiver>
+        <service android:name=".appwidget$UpdateService"/>
+        <activity android:name="WeekView"></activity>
+        <activity android:name="MonthView"></activity>
+        <activity android:name="SalaryView"></activity>
+        <activity android:name="EditDay"></activity>
+        <activity android:name="widgetConfig"></activity>
+        <activity android:name="settings"></activity>
+        <activity android:name="taxlocalesetting"></activity>
+        <activity android:name="avtalSettings"></activity>
+    </application>
+</manifest>

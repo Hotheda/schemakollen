@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#111111">
+    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start tid:" android:layout_weight="1"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:text="Slut tid:"></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rast:" android:layout_weight="1"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="--:--" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/editStart_btn"></Button>
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:text="--:--" android:id="@+id/editEnd_btn"></Button>
+            <Button android:layout_width="wrap_content" android:text="00:00" android:layout_height="wrap_content" android:id="@+id/editRast_btn" android:layout_weight="1"></Button>
+            <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Edit_imageBtn"></ImageButton>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text=" "></TextView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

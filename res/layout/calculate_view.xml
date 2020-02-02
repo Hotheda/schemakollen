@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calculate salary"></TextView>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Totalt timmar:  "></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SalTotal" android:text="00"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Totalt OB50:     "></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:id="@+id/SalOB50"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Totalt OB70:     "></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:id="@+id/SalOB70"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

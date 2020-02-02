@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginRight="20dp">
+            <TextView android:text="31." android:layout_width="wrap_content" android:textSize="20sp" android:id="@+id/weeklist_date" android:layout_height="wrap_content"></TextView>
+            <TextView android:text="Måndag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/weeklist_weekday"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="10:00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/weeklist_worktime" android:textSize="18dp"></TextView>
+                <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal">
+                    <TextView android:text="rast" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/weeklist_rast"></TextView>
+                    <TextView android:text="     " android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                    <TextView android:text="total" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/weeklist_total"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

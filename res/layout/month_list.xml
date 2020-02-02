@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#111111">
+    <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:id="@+id/monthListImage" android:layout_width="fill_parent" android:scaleType="centerInside" android:layout_height="wrap_content" android:adjustViewBounds="false"></ImageView>
+        <TextView android:textColor="@android:color/black" android:id="@+id/monthListText" android:layout_width="wrap_content" android:textSize="22dp" android:text="12" android:layout_height="wrap_content" android:layout_centerInParent="true"></TextView>
+    </RelativeLayout>
+</LinearLayout>

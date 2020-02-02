@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Text color"></TextView>
+        <Spinner android:layout_width="wrap_content" android:id="@+id/widgetColorSpinner" android:layout_height="wrap_content"></Spinner>
+        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/WidgetradioGroupBack">
+            <TextView android:layout_height="wrap_content" android:text="Backgorund type" android:layout_width="wrap_content"></TextView>
+            <RadioButton android:layout_height="wrap_content" android:id="@+id/widgetrRadioback0" android:checked="true" android:layout_width="wrap_content" android:text="Transperant"></RadioButton>
+            <RadioButton android:layout_height="wrap_content" android:id="@+id/widgetrRadioback1" android:layout_width="wrap_content" android:text="Light frame"></RadioButton>
+            <RadioButton android:layout_height="wrap_content" android:id="@+id/widgetrRadioback2" android:layout_width="wrap_content" android:text="Dark frame"></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

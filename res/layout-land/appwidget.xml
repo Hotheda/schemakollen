@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:id="@+id/widgetlayout">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:id="@+id/widgetbmp" android:layout_height="fill_parent" android:layout_width="fill_parent" android:scaleType="fitXY"></ImageView>
+        <TextView android:layout_margin="15dp" android:layout_width="wrap_content" android:id="@+id/WidgetTextTime" android:layout_height="wrap_content" android:text="@string/loading" android:textColor="@android:color/white" android:textSize="18dp"></TextView>
+    </RelativeLayout>
+</LinearLayout>

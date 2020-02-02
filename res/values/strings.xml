@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">12\n12:00\n20:30</string>
+    <string name="app_name">Schedualcheker</string>
+    <string name="loading">loading...</string>
+    <string-array name="monthStrings">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Mars</item>
+        <item>April</item>
+        <item>Maj</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augusti</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="dayStrings">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Annandag jul</item>
+        <item>Annandag påsk</item>
+        <item>Första maj</item>
+        <item>Julafton</item>
+        <item>Christmas day</item>
+        <item>Kristihimmel</item>
+        <item>Långfredagen</item>
+        <item>Midsommarafton</item>
+        <item>Midsommardagen</item>
+        <item>Nyårsafton</item>
+        <item>Nyårsdagen</item>
+        <item>Påskafton</item>
+        <item>Påskdagen</item>
+        <item>Sveriges Nationaldag</item>
+        <item>Trettondag jul</item>
+    </string-array>
+</resources>
